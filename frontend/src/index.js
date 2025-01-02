@@ -11,7 +11,7 @@ import { persistStore } from 'redux-persist';
 let persistor = persistStore(store);
 
 // export const BASE_URL="http://localhost:8080"
-export const BASE_URL ="real-time-chat-application-twlk.vercel.app"
+export const BASE_URL ="http://real-time-chat-application-twlk.vercel.app"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
