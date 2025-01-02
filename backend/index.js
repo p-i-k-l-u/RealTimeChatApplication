@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:"https://real-time-chat-application-5qzc.vercel.app/login",
+    origin:"https://real-time-chat-application-5qzc.vercel.app/signuo",
     credentials:true
 };
 app.use(cors(corsOption)); 
